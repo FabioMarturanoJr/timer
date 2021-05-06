@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #303030;
+  background-image: url('images/space.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 72px;
+  font-weight: 500;
+  color: #e2e2e2;
+  text-align: center;
+  margin-top: -50%;
+
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  margin-top: -40%;
+}
+
+button {
+  font-family: Digital;
+  /* background-color: transparent; */  
+  background-color: #303030;
+
+  border: 2px solid #e2e2e2;
+  color: #e2e2e2;
+  font-size: 30px;
+  padding: 10px;
+  margin: auto;
+}
+
+.Selector {
+  /* background-color: #303030; */
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 10px;
+  font-size: 30px;
+  width: 150px;
+  color: #e2e2e2;
+  text-align: center;
+  background-color: #303030;  
+}
